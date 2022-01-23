@@ -15,8 +15,6 @@ def enumerate_cb(db_info):
     return enumbers, ' - '.join([str(j) for i in enumbers for j in i])
 
 cats = enumerate_cb(get_cat())[0]
-print(enumerate_cb(lst_cat)[1])
-
 
 while True:
     books = enumerate_cb(get_books())[0]
