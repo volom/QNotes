@@ -7,4 +7,5 @@ add_note.py - the main file. Run it and follow the instructions
 categories.txt - the file contains your categories
 
 add_categories.py - the file will add categories if you run it
+
 ------------------------------------------
