@@ -14,9 +14,9 @@ def enumerate_cb(db_info):
     
     return enumbers, ' - '.join([str(j) for i in enumbers for j in i])
 
-cats = enumerate_cb(get_cat())[0]
 
 while True:
+    cats = enumerate_cb(lst_cat)[0]
     books = enumerate_cb(get_books())[0]
     print("(!) To add note use given template - |{number_cat}\\t{note}|\n")
     print("(!) To add book note use given template - |b\\t{number_cat}\\t{number_book|book_name_manual}\\t{note}|\n")
